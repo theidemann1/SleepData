@@ -62,10 +62,17 @@ namespace SleepData
                     string[] dateSplit = line.Split(',');
                     string[] hourSplit = dateSplit[1].Split('|');
                     DateTime dateHeader = DateTime.Parse(dateSplit[0]);
+                    int total = 0;
+                    double average;
+                    for(int i = 0; i <= 6; i++)
+                    {
+                        total = total + int.Parse(hourSplit[i]);
+                    }
+                    average = total/7;
                     Console.WriteLine("Week of {0:MMM, dd, yyyy}",dateHeader);
-                    Console.WriteLine(" {0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2}", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su");
-                    Console.WriteLine(" {0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2}", "--", "--", "--", "--", "--", "--", "--");
-                    Console.WriteLine(" {0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2}", hourSplit[0], hourSplit[1], hourSplit[2], hourSplit[3], hourSplit[4], hourSplit[5], hourSplit[6]);
+                    Console.WriteLine(" {0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2} {7,3} {8,3}", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su", "Tot", "Avg");
+                    Console.WriteLine(" {0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2} {7,3} {8,3}", "--", "--", "--", "--", "--", "--", "--", "---", "---");
+                    Console.WriteLine(" {0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2} {7,3} {8,3}", hourSplit[0], hourSplit[1], hourSplit[2], hourSplit[3], hourSplit[4], hourSplit[5], hourSplit[6], total, average);
                 }while(!sr.EndOfStream);
 
             }
