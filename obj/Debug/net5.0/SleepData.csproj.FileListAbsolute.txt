@@ -1,0 +1,16 @@
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\SleepData.exe
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\SleepData.deps.json
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\SleepData.runtimeconfig.json
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\SleepData.runtimeconfig.dev.json
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\SleepData.dll
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\ref\SleepData.dll
+C:\Users\bitstudent\Desktop\SleepData\bin\Debug\net5.0\SleepData.pdb
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.csproj.AssemblyReference.cache
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.AssemblyInfoInputs.cache
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.AssemblyInfo.cs
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.dll
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\ref\SleepData.dll
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.pdb
+C:\Users\bitstudent\Desktop\SleepData\obj\Debug\net5.0\SleepData.genruntimeconfig.cache
