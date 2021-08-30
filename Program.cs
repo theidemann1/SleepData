@@ -56,6 +56,8 @@ namespace SleepData
             else if (resp == "2")
             {
                 StreamReader sr = new StreamReader("data.txt");
+                string line = sr.ReadLine();
+                Console.WriteLine(line);
                 Console.WriteLine("{0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2}", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su");
                 Console.WriteLine("{0, 2} {1, 2} {2,2} {3, 2} {4,2} {5,2} {6,2}", "--", "--", "--", "--", "--", "--", "--");
 
